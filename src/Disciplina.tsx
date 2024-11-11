@@ -5,12 +5,12 @@ type DisciplinaProps = {
     name: string;
 }
 
-function Disciplina(props: DisciplinaProps) {
+function Disciplina({code, name}: DisciplinaProps) {
 
     return (
         <div className="disciplina">
-            <div>{props.code}</div>
-            <div>{props.name}</div>
+            <div>{code}</div>
+            <div>{name}</div>
         </div>
     )
 }
