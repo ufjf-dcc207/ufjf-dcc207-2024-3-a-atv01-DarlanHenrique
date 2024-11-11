@@ -6,4 +6,5 @@
 .disciplina > div {
     border: 1px solid lightgray;
     padding: 0.2rem;
+    margin-bottom: 0.5rem;
 }
